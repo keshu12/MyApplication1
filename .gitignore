@@ -1,0 +1,44 @@
+# 系统文件 (OS Files)
+.DS_Store
+Thumbs.db
+*.log
+
+# Gradle 编译相关
+.gradle/
+.kotlin/
+build/
+app/build/
+app/debug/
+app/release/
+
+# 本地配置文件 (Local configuration)
+local.properties
+
+# Android Studio 自动生成的文件
+captures/
+.externalNativeBuild/
+.cxx/
+*.aab
+*.apk
+output-metadata.json
+
+# IntelliJ / Android Studio 项目文件
+*.iml
+.idea/
+misc.xml
+deploymentTargetDropDown.xml
+render.experimental.xml
+
+# 签名文件 (关键：不要上传到仓库)
+*.jks
+*.keystore
+
+# Google 服务配置 (如 Firebase)
+google-services.json
+
+# 内存分析文件
+*.hprof
+
+# 测试代码 (根据你的需求合并)
+app/src/androidTest/
+app/src/test/
